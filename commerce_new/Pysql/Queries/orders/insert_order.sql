@@ -1,0 +1,28 @@
+INSERT INTO orders (
+    orderId, 
+    paymentId, 
+    customerId, 
+    salesChannelId,
+    addressId,
+    AffiliateId,
+    Description, 
+    Origin, 
+    deliveryQuotedCost, 
+    authorizedDate, 
+    invoiceShippedDate, 
+    invoiceDeliveryDate, 
+    date,
+    statusUpdatedAt,
+    paymentRefund,
+    paymentRefundAttempts,
+    subtotal,
+    totalDiscounts,
+    status,
+    exportStatus,
+    blockCart,
+    creationDate,
+    creationTime,
+    modifiedDate,
+    modifiedTime
+)
+VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
