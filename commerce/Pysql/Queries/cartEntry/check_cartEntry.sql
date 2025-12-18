@@ -1,0 +1,1 @@
+SELECT [orderIdSap], [refId] FROM sapEcom.sap_cartEntry

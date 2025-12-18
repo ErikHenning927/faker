@@ -1,0 +1,1 @@
+SELECT salesChannelId FROM salesChannel

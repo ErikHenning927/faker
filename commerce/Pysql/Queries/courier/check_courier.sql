@@ -1,0 +1,1 @@
+SELECT courierId FROM sapEcom.sap_courier

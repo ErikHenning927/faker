@@ -1,0 +1,1 @@
+SELECT addressId FROM deliveryAddresses

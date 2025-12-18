@@ -1,0 +1,1 @@
+SELECT familyId FROM sapEcom.sap_productFamily

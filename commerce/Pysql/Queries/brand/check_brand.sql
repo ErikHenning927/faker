@@ -1,0 +1,1 @@
+SELECT brandId FROM [sapEcom].[sap_productBrand]

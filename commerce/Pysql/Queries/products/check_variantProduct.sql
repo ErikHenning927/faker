@@ -1,0 +1,1 @@
+SELECT refId FROM sapEcom.sap_variantProducts;

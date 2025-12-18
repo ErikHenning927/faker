@@ -1,0 +1,1 @@
+SELECT lineId FROM sapEcom.sap_productLine

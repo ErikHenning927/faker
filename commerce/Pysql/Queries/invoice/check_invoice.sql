@@ -1,0 +1,1 @@
+SELECT invoiceSerie, invoiceNumber FROM sapEcom.sap_invoices

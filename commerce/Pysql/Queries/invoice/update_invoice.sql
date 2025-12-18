@@ -1,0 +1,25 @@
+UPDATE sapEcom.sap_invoices
+    SET 
+        [consigmentId] = ?,
+        [establishment] = ?,
+        [invoiceValue] = ?,
+        [issuanceDate] = ?,
+        [orderAuthorizedDate] = ?,
+        [invoiceUrl] = ?,
+        [invoiceKey] = ?,
+        [invoiceSendToVtex] = ?,
+        [invoiceSedtToSalesforce] = ?,
+        [xml] = ?,
+        [volumes] = ?,
+        [courier] = ?,
+        [reasonEntry] = ?,
+        [reasonReturn] = ?,
+        [orderIdVtex] = ?,
+        [status] = ?,
+        [type] = ?,
+        [stockReleased] = ?,
+        [creationDate] = ?,
+        [creationTime] = ?,
+        [modifiedDate] = ?,
+        [modifiedTime] = ?
+    WHERE [invoiceSerie] = ? and [invoiceNumber] = ?;

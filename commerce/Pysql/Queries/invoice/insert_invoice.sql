@@ -1,0 +1,27 @@
+INSERT INTO sapEcom.sap_invoices (
+    [invoiceNumber],
+    [invoiceSerie],
+    [consigmentId],
+    [establishment],
+    [invoiceValue],
+    [issuanceDate],
+    [orderAuthorizedDate],
+    [invoiceUrl],
+    [invoiceKey],
+    [invoiceSendToVtex],
+    [invoiceSedtToSalesforce],
+    [xml],
+    [volumes],
+    [courier],
+    [reasonEntry],
+    [reasonReturn],
+    [orderIdVtex],
+    [status],
+    [type],
+    [stockReleased],
+    [creationDate],
+    [creationTime],
+    [modifiedDate],
+    [modifiedTime]
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)

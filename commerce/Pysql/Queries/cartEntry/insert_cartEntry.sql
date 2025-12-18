@@ -1,0 +1,32 @@
+INSERT INTO sapEcom.sap_cartEntry (
+    [orderIdSap],
+    [refId],
+    [warehouseId],
+    [courierId],
+    [namedDeliveryDate],
+    [sellingPrice],
+    [isReservedInSAP],
+    [deliveryQuotedCost],
+    [calculated],
+    [pointOfService],
+    [basePrice],
+    [quantity],
+    [price],
+    [selectedSla],
+    [entryNumber],
+    [info],
+    [deliveryCost],
+    [totalPrice],
+    [isReservedInTOTVS],
+    [costPrice],
+    [quantityStatus],
+    [vtexPromotions],
+    [costCenter],
+    [chosenVendor],
+    [creationDate],
+    [creationTime],
+    [modifiedDate],
+    [modifiedTime]
+    
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
