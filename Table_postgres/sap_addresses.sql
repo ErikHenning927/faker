@@ -1,0 +1,23 @@
+CREATE TABLE deliveryAddresses (
+    addressId VARCHAR(50) PRIMARY KEY,
+    postalcode VARCHAR(20),
+    unloadingAddress INT,
+    streetnumber VARCHAR(50),
+    complement VARCHAR(255),
+    remarks VARCHAR(255),
+    addressType VARCHAR(50),
+    contactAddress INT,
+    shippingAddress INT,
+    building VARCHAR(100),
+    cellphone VARCHAR(20),
+    town VARCHAR(50),
+    appartment VARCHAR(100),
+    company VARCHAR(100),
+    typeQualifier VARCHAR(10),
+    streetname VARCHAR(255),
+    department VARCHAR(100),
+    billingAddress INT,
+    country VARCHAR(10),
+    title VARCHAR(50),
+    region VARCHAR(100)
+);
