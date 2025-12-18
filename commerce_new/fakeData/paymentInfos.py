@@ -68,6 +68,3 @@ def generate_fake_payment_info(num_records=50):
     return payments
 
 
-# Exemplo de uso
-data = generate_fake_payment_info(20000)
-insert_payment_info_to_db(data)

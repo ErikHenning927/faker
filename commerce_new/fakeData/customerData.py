@@ -41,6 +41,3 @@ def generate_fake_customer_info(num_records=50):
 
     return customers
 
-# Exemplo
-data = generate_fake_customer_info(10000)
-insert_customer_info_to_db(data)

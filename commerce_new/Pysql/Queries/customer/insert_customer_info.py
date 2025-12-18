@@ -70,14 +70,14 @@ def insert_customer_info_to_db(all_orderCustomers):
             try:
                 cursor.executemany(insert_query, insert_batch)
                 print(f"{len(insert_batch)} clientes inseridos no banco com sucesso.")
-            except pyodbc.IntegrityError as e:
+            except Exception as e:
                 print(f"Erro de integridade ao inserir lote. Tentando linha por linha... {e}")
                 success_count = 0
                 for row in insert_batch:
                     try:
                         cursor.execute(insert_query, row)
                         success_count += 1
-                    except pyodbc.IntegrityError as e:
+                    except Exception as e:
                         print(f"Ignorado: {e}")
                 print(f"{success_count} clientes inseridos com sucesso após tratamento de erros.")
         if update_batch:

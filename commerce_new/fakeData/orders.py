@@ -73,6 +73,3 @@ def generate_fake_orders_data(num_records=50):
 
     return orders
 
-# Exemplo
-data = generate_fake_orders_data(20000)
-insert_order_to_db(data)

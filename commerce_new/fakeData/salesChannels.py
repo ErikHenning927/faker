@@ -31,5 +31,3 @@ def generate_fake_sales_channel(num_records=50):
         records.append(record)
 
     return records
-data = generate_fake_sales_channel(20)
-insert_salesChannel_to_db(data)

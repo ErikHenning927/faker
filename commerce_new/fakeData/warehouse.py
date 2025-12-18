@@ -41,5 +41,3 @@ def generate_fake_warehouse_data(num_records=50):
 
     return warehouses
 
-data = generate_fake_warehouse_data(200)
-insert_warehouse_to_db(data)

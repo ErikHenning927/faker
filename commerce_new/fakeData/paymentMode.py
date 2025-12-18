@@ -30,8 +30,3 @@ def generate_fake_payment_mode_data(num_records=50):
 
     return payment_modes
 
-# Gera 100 registros fake
-data = generate_fake_payment_mode_data(10)
-
-
-insert_paymentModes_to_db(data)

@@ -49,6 +49,3 @@ def generate_fake_address_data(num_records=50):
 
     return addresses
 
-# Exemplo
-data = generate_fake_address_data(20000)
-insert_address_to_db(data)
