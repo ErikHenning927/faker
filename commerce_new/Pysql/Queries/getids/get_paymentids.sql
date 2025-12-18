@@ -1,0 +1,1 @@
+select paymentId from paymentInfo;
