@@ -1,0 +1,20 @@
+CREATE TABLE conciliation (
+    orderId VARCHAR(20) PRIMARY KEY,
+    paymentId VARCHAR(50),
+    date_approved TIMESTAMP,
+    date_created TIMESTAMP,
+    money_release_date TIMESTAMP,
+    money_release_days INT,
+    salesChannelId int,
+    status VARCHAR(50),
+    status_details VARCHAR(255),
+    original_amount DECIMAL(10, 2),
+    refunded_amount DECIMAL(10, 2),
+    gross DECIMAL(10, 2),
+    net DECIMAL(10, 2),
+    rebate DECIMAL(10, 2),
+    discount DECIMAL(10, 2),
+    discount_reason VARCHAR(255),
+    FOREIGN KEY (paymentId) REFERENCES paymentInfo(paymentId),
+    FOREIGN KEY (salesChannelId) REFERENCES salesChannel(salesChannelId)
+);

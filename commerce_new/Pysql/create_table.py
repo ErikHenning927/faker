@@ -30,6 +30,7 @@ tables = [
     ("customerData", load_sql('customerData.sql', 'Table_postgres')),
     ("orders", load_sql('orders.sql', 'Table_postgres')),
     ("invoice", load_sql('invoice.sql', 'Table_postgres')),
+    ("conciliation", load_sql('conciliation.sql', 'Table_postgres')),
 ]
 
 for name, query in tables:

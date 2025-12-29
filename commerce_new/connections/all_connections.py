@@ -5,7 +5,7 @@ def postgres_local():
     port = 5432
     database = "powder_intelligence"
     user = "postgres"
-    password = "postgres"
+    password = "postgres2"
 
     try:
         conn = psycopg2.connect(
